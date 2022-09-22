@@ -2,21 +2,16 @@ body{
     background-color: aqua;
     margin: 0 0 0 0;
 }
+hr{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
 
 #head{
     background-color: red;
     height: 15vh;
     display: flex;
 }
-#main{
-    background-color: blue;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-}
-
-
-
 
 .head-c{
     width: 50vw;
@@ -24,15 +19,76 @@ body{
 }
 
 #head-izq{
-    background-color: green;
+    background-color: white;
     display: flex;
     align-items: center;
 }
 
 #head-der{
-    background-color: aqua;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    
+}
+#sobreg{
+    align-items: center ;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
+#tienda{
+    align-items: center;
+}
+#gmail{
+    width: 30vw;
+    text-align: right;
+}
+#imagenes{
+    align-items: center ;
+    width: 7vw;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#desplegable{
+    display: flex;
+    align-items: center;
+    width: 3vw;
+    padding: 0 0 0 0;
+
+}
+#menudesp{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 0 0 0;
+    height: 6vh;
+    border: white;
+}
+#iniciarsesion{
+    width: 9vw;
+}
+#sesionbut{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+#sesionbut:hover{
+    border: 2px grey solid;
+
+}
+
+
+
+#main{
+    background-color: white;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
 
 #main-info{
     background-color: orange;
@@ -40,36 +96,60 @@ body{
     height: 75vh;
 }
 
+#titulog{
+    background-color: white;
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#barrabus{
+    background-color: white;
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buscador{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 20px;
+    border: 1px grey solid;
+
+}
+
+
 #footer{
     background-color: pink;
-    height: 20vh;
+    height: 10vh;
+}
+#foottext{
+    height: 5vh;
 }
 
 #footerlink{
     background-color: rgb(0, 255, 38);
     display: flex;
+    height: 5vh;
 }
 
 #footerlinkizq{
     background-color: blueviolet;
-    width: 30vw;
+    width: 33vw;
+    height: 5vh;
 }
 
 #footerlinkmid{
     background-color: brown;
-    width: 30vw;
+    width: 33vw;
 
 }
 #footerlinkder{
     background-color: aqua;
-    width: 40vw;
+    width: 34vw;
 
 }
 
-#sobreg{
-    align-items: center ;
-}
-
-#tienda{
-    align-items: center;
-}
