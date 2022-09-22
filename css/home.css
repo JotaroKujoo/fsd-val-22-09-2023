@@ -131,12 +131,14 @@ hr{
 }
 
 .luckybut{
-    width: 10vw;
+    width: 15vw;
     height: 4vh;
     margin-left: 10px;
 }
-.langmargin{
-    margin-left: 10px;
+.wordconf{
+    padding-top: 5px;
+    margin-left: 30px;
+    color: grey;
 }
 
 #langoptions{
@@ -145,33 +147,60 @@ hr{
 }
 
 #footer{
-    background-color: pink;
+    background-color: #e0e4eb;
     height: 10vh;
 }
 #foottext{
-    height: 5vh;
+    height: 3vh;
+    padding-bottom: 10px;
+    
+}
+
+#esp{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 2vh;
+}
+
+#hrcu{
+    height: 1vh;
 }
 
 #footerlink{
     background-color: rgb(0, 255, 38);
     display: flex;
-    height: 5vh;
+    height: 6vh;
 }
 
 #footerlinkizq{
-    background-color: blueviolet;
+    background-color:  #e0e4eb;
     width: 33vw;
-    height: 5vh;
+    height: 6vh;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: grey;
+
 }
 
 #footerlinkmid{
-    background-color: brown;
+    background-color: #e0e4eb;
     width: 33vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: -5px;
+    margin-bottom:-5px;
 
 }
 #footerlinkder{
-    background-color: aqua;
+    background-color: #e0e4eb;
     width: 34vw;
-
+    height: 6vh;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
