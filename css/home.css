@@ -1,0 +1,75 @@
+body{
+    background-color: aqua;
+    margin: 0 0 0 0;
+}
+
+#head{
+    background-color: red;
+    height: 15vh;
+    display: flex;
+}
+#main{
+    background-color: blue;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.head-c{
+    width: 50vw;
+    height: 15vh;
+}
+
+#head-izq{
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+#head-der{
+    background-color: aqua;
+}
+
+
+#main-info{
+    background-color: orange;
+    width: 50vw;
+    height: 75vh;
+}
+
+#footer{
+    background-color: pink;
+    height: 20vh;
+}
+
+#footerlink{
+    background-color: rgb(0, 255, 38);
+    display: flex;
+}
+
+#footerlinkizq{
+    background-color: blueviolet;
+    width: 30vw;
+}
+
+#footerlinkmid{
+    background-color: brown;
+    width: 30vw;
+
+}
+#footerlinkder{
+    background-color: aqua;
+    width: 40vw;
+
+}
+
+#sobreg{
+    align-items: center ;
+}
+
+#tienda{
+    align-items: center;
+}
