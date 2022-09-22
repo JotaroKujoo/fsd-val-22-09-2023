@@ -91,7 +91,7 @@ hr{
 }
 
 #main-info{
-    background-color: orange;
+    background-color: white;
     width: 50vw;
     height: 75vh;
 }
@@ -122,12 +122,27 @@ hr{
 }
 
 #dosbcont{
-    background-color: blue;
+    background-color: white;
     width: 50vw;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.luckybut{
+    width: 10vw;
+    height: 4vh;
+    margin-left: 10px;
+}
+.langmargin{
+    margin-left: 10px;
+}
 
+#langoptions{
+    text-align: center;
+    margin-top: 20px;;
+}
 
 #footer{
     background-color: pink;
