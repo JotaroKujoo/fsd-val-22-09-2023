@@ -121,6 +121,13 @@ hr{
 
 }
 
+#dosbcont{
+    background-color: blue;
+    width: 50vw;
+    height: 5vh;
+}
+
+
 
 #footer{
     background-color: pink;
